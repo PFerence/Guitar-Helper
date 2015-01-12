@@ -50,7 +50,7 @@ function findNote (fret, note) {
     }
     for (var i=fret-4; i < fret+4; i++) {
 	if(strings.sixth[i] === note) {
-	    console.log(note + " at fret " + i + " on sixth");
+	    console.log(note + " at fret " + i + " on sixth string");
 	}
     }
 }
