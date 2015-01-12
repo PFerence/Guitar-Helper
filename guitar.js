@@ -25,7 +25,7 @@ function findNote (fret, note) {
     var strings = new Strings("E","A","D","G","B","E");
     for (var i=fret-4; i < fret+4; i++) {
 	if (strings.first[i] === note) {
-	    console.log(note + " at fret " + i+ " on low first string");
+	    console.log(note + " at fret " + i+ " on first string");
 	}
     }
     for (var i=fret-4; i < fret+4; i++) {
